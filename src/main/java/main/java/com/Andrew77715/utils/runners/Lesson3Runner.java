@@ -1,5 +1,5 @@
 package main.java.com.Andrew77715.utils.runners;
-import com.Andrew_Yanchuk.app.PrimitiveConverter;
+import main.java.com.Andrew77715.utils.convertors.PrimitiveConverter;
 
 public class Lesson3Runner {
     public static void main (String args[]){
