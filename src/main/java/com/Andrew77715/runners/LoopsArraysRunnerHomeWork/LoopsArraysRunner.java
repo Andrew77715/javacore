@@ -10,10 +10,12 @@ public class LoopsArraysRunner {
     public static void main(String args[]) {
         boolean exitCondition = true;
         LoopsArray myLoopsArray = new LoopsArray();
+        System.out.println("  Приветствую тебя мой дорогой друг!\n  введи любое число от 1 до 5 и нажми ентер\n  Каждое число соответсвует номеру задачи. \n  Для выхода из проги введи 6 и нажми ентер");
+
         do {
             Scanner scanner = new Scanner(System.in);
             System.out.println("");
-            System.out.println("  Приветствую тебя мой дорогой друг!\n  введи любое число от 1 до 5 и нажми ентер\n  Каждое число соответсвует номеру задачи. \n  Для выхода из проги введи 6 и нажми ентер");
+            //System.out.println("  Приветствую тебя мой дорогой друг!\n  введи любое число от 1 до 5 и нажми ентер\n  Каждое число соответсвует номеру задачи. \n  Для выхода из проги введи 6 и нажми ентер");
 
             if (scanner.hasNextInt()) {
                 int a = scanner.nextInt();
@@ -45,7 +47,7 @@ public class LoopsArraysRunner {
                         break;
                     case 6:
                         exitCondition = false;
-                        System.out.println("Exiting program ...");
+                        System.out.println("Ты ввел 6, ну тогда пока!!! ...");
                         break;
 
                     default:
@@ -54,7 +56,7 @@ public class LoopsArraysRunner {
                 }
             } else System.out.println("Неверное значение!!! только числа от 1 до 5");
 
-        } while (exitCondition);
+        } while (exitCondition == true);
     }
 }
 
