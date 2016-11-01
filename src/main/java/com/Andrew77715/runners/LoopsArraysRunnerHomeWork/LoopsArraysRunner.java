@@ -47,7 +47,7 @@ public class LoopsArraysRunner {
                         break;
                     case 6:
                         exitCondition = false;
-                        System.out.println("Ты ввел 6, ну тогда пока!!! ...");
+                        System.out.println("Ты ввел 6, спасибо что использовал \"типа\" программу Андрея!!! ...");
                         break;
 
                     default:
